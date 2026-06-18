@@ -12,6 +12,7 @@ Un répertoire par repo d'origine :
 
 ```
 connectors/   ← modules retirés de vertigo-connectors
+mars/         ← fonctionnalités retirées de vertigo-mars
 libs/         ← modules retirés de vertigo-libs
 ...
 ```
@@ -25,3 +26,6 @@ module archivé (repo, commit, date de retrait).
 |---|---|---|
 | [connectors/vertigo-ifttt-connector](connectors/vertigo-ifttt-connector) | vertigo-connectors | 2026-06-11 |
 | [connectors/vertigo-twitter-connector](connectors/vertigo-twitter-connector) | vertigo-connectors | 2026-06-11 |
+| [mars/iot](mars/iot) — IoT/Arduino (MQTT, capteurs, écrans environnement) | vertigo-mars | 2026-06-12 |
+| [mars/ai](mars/ai) — IA/LLM (écrans IA, RAG, notebooks) | vertigo-mars | 2026-06-12 |
+| [mars/chatbot](mars/chatbot) — chatbot Rasa (module command/bot, widget) | vertigo-mars | 2026-06-12 |
